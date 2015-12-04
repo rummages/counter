@@ -3,10 +3,7 @@ package main
 import "fmt"
 
 func main() { 
-	i := 1 
-	for i <= 100 { // For loop creates another little function inside main
+	for i := 1; i <= 100; i++ { //Creates and sets i as 1 ; for i is less than 100 ; special operator '++' is +1 -- is -1
 		fmt.Println(i)
-		i = i + 1 // Here we have to initialize the method to increment the loop
-		} // Closes for loop
-	} // Closes function
-
+	}
+}
